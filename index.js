@@ -6,7 +6,7 @@ const returnFirstTwoDrivers = function(drivers){
 }
 
 const returnLastTwoDrivers = function(drivers){
-  length = drivers.length
+  let length = drivers.length;
   let lastTwo = [drivers[length-1], drivers[length-2]];
   return lastTwo
 } 
